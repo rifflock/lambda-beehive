@@ -1,0 +1,48 @@
+{
+  "name": "lambda-beehive",
+  "version": "0.0.1",
+  "description": "Use Bee-Queue to trigger lambda functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/_mocha test/test-runner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rifflock/lambda-beehive.git"
+  },
+  "keywords": [
+    "node",
+    "lambda",
+    "aws",
+    "queue",
+    "bee-queue"
+  ],
+  "author": "@rifflock",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rifflock/lambda-beehive/issues"
+  },
+  "homepage": "https://github.com/rifflock/lambda-beehive#readme",
+  "dependencies": {
+    "aws-sdk": "^2.92.0",
+    "bee-queue": "^1.1.0",
+    "bluebird": "^3.5.0",
+    "lodash": "^4.17.4",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^4.3.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-lodash": "^2.4.4",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-yaml": "github:pdehaan/eslint-plugin-yaml",
+    "mocha": "^3.5.0",
+    "proxyquire": "^1.8.0",
+    "sinon": "^3.2.1",
+    "sinon-chai": "^2.13.0"
+  }
+}
